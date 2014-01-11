@@ -1,0 +1,6 @@
+MIDlet-Name: Chief_Fail_Bot_Take2.0
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: Chief_Fail_Bot_Take2.0, , edu.wpi.first.wpilibj.templates.Chief_Fail_Bot_Take2.0
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1

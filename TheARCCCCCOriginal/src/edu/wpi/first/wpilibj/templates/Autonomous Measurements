@@ -1,0 +1,35 @@
+_-=EXTRA MEASUREMENTS=-_
+---------------------------------------------------------------------------
+32x24 in ROBOT w/o bumpers 35X27 in with bumpers
+horizontal from red tape/Pyramid Side -> end= 216 in. (18 ft)
+pyramid side= 94 in
+from pyramid side -> side=122 in 
+from bottom corner -> half to top = 163.5 in (13.7 ft) (.0619 seconds)
+
+---------------------------------------------------------------------------
+
+to travel 13.7 ft, it takes .0619 seconds with CIM motor at 221.25 ft/s
+to travel 18 ft, it takes .0814 seconds with CIM motor at 221.25 ft/s
+
+---------------------------------------------------------------------------
+
+Bottom Right (forward, left)
+to travel 13 ft,  it takes 1.7125 seconds with the robot traveling at8 ft/s
+to travel 18 ft, it takes 2.25 seconds with the robot traveling at8 ft/s
+
+---------------------------------------------------------------------------
+
+Bottom Left (Forward, Left) 
+to travel 13 ft,  it takes 1.7125 seconds with the robot traveling at8 ft/s
+to travel 8.21 ft, it takes 1.0263 seconds with the robot traveling at8 ft/s
+---------------------------------------------------------------------------
+
+Top Right (Forward, Left)
+to travel 5.8667 ft,  it takes .7333 seconds with the robot traveling at8 ft/s
+to travel 18 ft, it takes 2.25 seconds with the robot traveling at8 ft/s
+---------------------------------------------------------------------------
+Top Left (Forward, Left)
+to travel 5.8667 ft,  it takes .7333 seconds with the robot traveling at8 ft/s
+to travel 8.21 ft, it takes 1.0263 seconds with the robot traveling at8 ft/s
+---------------------------------------------------------------------------
+
