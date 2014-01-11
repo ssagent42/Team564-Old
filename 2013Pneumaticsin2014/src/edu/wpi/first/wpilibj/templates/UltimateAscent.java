@@ -40,7 +40,9 @@ public class UltimateAscent extends IterativeRobot {
      */
     
     DoubleSolenoid frontarm; //Controls arm in front, horizontal motion
-    DoubleSolenoid toparm; //top arm big pistons
+    DoubleSolenoid toparm;
+    //top arm big pistons
+    Relay compressor;
     Joystick left;
     Joystick right;
     Joystick arc;
@@ -53,14 +55,22 @@ public class UltimateAscent extends IterativeRobot {
     
     public UltimateAscent(){
         
-        frontarm = new DoubleSolenoid();  
-        toparm = new DoubleSolenoid();
+        frontarm = new DoubleSolenoid(2,3); //module, forward, reverse (parameter order) 
+        toparm = new DoubleSolenoid(2,5);
         
+        left = new Joystick(2);
+        right = new Joystick(3);
+        arc = new Joystick(1);
+        
+        //compressor= new Relay(7);
+        comp = new Compressor(2,7); //first number pressureSwitch, second relay input
         
     }
     
     public void robotInit() {
-
+        comp.start();
+        frontarm.set(DoubleSolenoid.Value.kOff);
+        toparm.set(DoubleSolenoid.Value.kOff);
     }
 
     /**
